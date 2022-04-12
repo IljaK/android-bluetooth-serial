@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android-bluetooth-serial</string>
+
+    <!-- Tabs -->
+    <string name="tab_main_console_label">Console</string>
+    <string name="tab_main_stats_label">Stats</string>
+    <string name="tab_bt_paired_label">BT Paired</string>
+    <string name="tab_bt_scan_label">BT Scan</string>
+</resources>

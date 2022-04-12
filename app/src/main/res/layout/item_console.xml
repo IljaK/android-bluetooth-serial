@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ConsoleActivity">
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:foregroundGravity="top|right"
+        android:gravity="right|top"
+        android:text="yy/mm/dd hh:mm:ss.ms"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/messageLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateLabel"
+        android:layout_marginTop="-2dp"
+        android:foregroundGravity="top|right"
+        android:gravity="right|top"
+        android:text="some log data"
+        android:textSize="12sp" />
+
+</RelativeLayout>
